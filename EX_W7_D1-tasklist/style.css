@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  margin: 20px;
+}
+
+#taskInput {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#addTaskBtn {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+.taskItem {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.taskItem.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.deleteTaskBtn {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
